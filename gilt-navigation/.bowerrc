@@ -1,1 +1,4 @@
-{"directory":"../"}
+{
+  "directory" : "../",
+  "registry"  : "http://radiant-hollows-7019.herokuapp.com"
+}
