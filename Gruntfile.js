@@ -53,6 +53,17 @@ module.exports = function(grunt) {
         files: '<%= jshint.spec.src %>',
         tasks: ['jshint:spec']
       }
+    },
+
+    'replace': {
+      example: {
+        src: ['src/*'],
+        dest: 'dist/',
+        replacements: [{
+          from: 'bower_components',
+          to: '..'
+        }]
+      }
     }
   });
 
@@ -60,7 +71,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-text-replace');
 
   // Default task.
   grunt.registerTask('default', ['connect', 'watch']);
+  grunt.registerTask('build',  ['replace']);
 };
