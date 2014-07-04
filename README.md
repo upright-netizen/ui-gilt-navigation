@@ -2,6 +2,17 @@
 
 A web component for the Gilt navigation created using Polymer. This is just a stub used for prototyping and is not fully functional.
 
+## Setup
+
+1. `npm install`
+2. `cd gilt-navigation && bower install`
+
+## Development
+
+Start the local webserver by typing `grunt` from the root of the project.
+
+Make changes to the web-component in `gilt-navigation/gilt-navigation.html` and check it out in the browser at [http://0.0.0.0:5555/gilt-navigation](http://0.0.0.0:5555/gilt-navigation)
+
 ## Project Structure
 
 The root directory of this project is the workspace. The web component itself lives in `gilt-navigation`.

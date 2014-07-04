@@ -1,5 +1,6 @@
 {
   "name": "ui-gilt-navigation",
+  "repository": "git@github.com:upright-netizen/ui-gilt-navigation.git",
   "version": "0.0.0",
   "description": "",
   "main": "Gruntfile.js",
