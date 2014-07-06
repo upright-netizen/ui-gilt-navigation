@@ -4,6 +4,7 @@
   "authors": [
     "Chris Hicks <chrhicks@gmail.com>"
   ],
+  "private": true,
   "description": "The Gilt navigation for use in prototyping (not fully functional)",
   "license": "MIT",
   "ignore": [
